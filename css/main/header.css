@@ -1,0 +1,20 @@
+header{
+    background-color: #292929;
+    
+}
+.navbar{
+    padding: 10px;
+}
+.navbar-brand{
+    color: #D7CFF4!important;
+    font-weight: bolder;
+    font-size: 1.5rem ;
+    margin-right: 40px;
+}
+.nav-link{
+    font-size: 18px;
+    color: gray;
+}
+.nav-link:hover{
+    color: #D7CFF4;
+}

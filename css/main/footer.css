@@ -1,0 +1,47 @@
+footer{
+    color: #fff;
+}
+.inpfooter{
+    color: gray;
+    display: block;
+    background-color: transparent;
+    width: 80%;
+    height: 40px;
+    margin: 20px 0px;
+    outline: none;
+    border: transparent;
+    border-bottom:1px solid gray;
+
+}
+.parnt{
+    margin: 40px;
+
+    position: relative;
+}
+.btnfooter{
+position: absolute;
+top: -50px;
+right: -50px;
+z-index: 99;
+margin: 50px;
+justify-content: center;
+align-items: center; 
+width: 100px;
+height: 40px;
+background-color: transparent;
+font-size: 20px ;
+color: gray;
+border: 2px solid gray;
+border-radius: 20px;
+       
+}
+footer a{
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+    color: aqua;
+    display: block;
+}
+footer a:hover{
+    color: darkcyan;
+}

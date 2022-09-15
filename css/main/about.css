@@ -1,0 +1,137 @@
+.box{
+    margin-top:50px ;
+}
+.line{
+    font-size:  3rem !important;
+    margin: 20px;
+    font-weight: bolder;
+}
+.letter{
+    color:#BCC4F2;
+}
+.letter span{
+    font-size: 7rem!important;
+}
+.box p{
+    font-size: 18px;
+    line-height: 1.6;
+    
+}
+.read{
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px #EB19B7 solid;
+    width: fit-content;
+    font-size: 18px;
+    background-color: #EB19B7;
+    color: white;
+    transition:all .1s ;
+}
+.read:hover{
+    background-color: #fff;
+    color: #EB19B7;
+    border: 1px solid #EB19B7;
+}
+@media screen and (max-width:1000px) {
+    .line{
+        font-size:  2rem ;
+        margin: 10px;
+        font-weight: bolder;
+    }  
+    .letter span{
+        font-size: 5rem!important;
+    } 
+   .quality ul li{
+        font-size: 18px;
+        font-weight: 400;
+       
+    }
+    .quality ul li span{
+    
+        margin: 0px
+    }
+}
+.shop{
+    background-color: #BCC4F2;
+    padding: 20px;
+}
+.line2{
+    font-size:  3rem !important;
+    margin: 20px;
+    font-weight: bolder;
+    color: gray;
+}
+.letter2{
+    color:#000;
+}
+.letter2 span{
+    font-size: 6rem!important;
+}
+.item{
+    width: 100%;
+    margin: 10px;
+    height: 243px;
+    background-color: #ffffff;
+   
+    display: flex;
+    
+    flex-direction: column;
+   
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+image{
+    margin: 50px 0;
+    height: 92px;
+  
+    display: flex;
+   
+    justify-content: center;
+   
+    align-items: center;
+}
+.text{
+margin-top: 40px;
+}
+.item h6{
+    font-size: 20px;
+
+}
+.item a{
+color: #BCC4F2;
+font-size: 18px;
+
+}
+.line3{
+    font-size:  3rem !important;
+    margin: 20px;
+    font-weight: bolder;
+    color: black;
+}
+.letter3{
+    color:#BCC4F2;
+}
+.letter3 span{
+    font-size: 6rem!important;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+ul li span{
+    
+    margin: 48px;
+}
+.actives{
+    color: #09c;
+}
+.bestglass{
+    -webkit-filter: blur(1px);
+    filter: blur(-10px);
+}

@@ -1,0 +1,131 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.home{
+    
+    background-image: url("../../images/slider-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    inset: 0;
+}
+ .slide{
+position: relative;
+height: 100vh;
+display: flex;
+align-items: center;
+}
+.page h1{
+    font-size: 4.5rem;
+    color: black;
+    margin: 20px;
+
+}
+.page h2{
+    font-size: 3rem;
+    font-weight: bolder;
+    color: white;
+    margin: 20px;
+}
+.btnBuy{
+    background-color: black;
+    border: transparent;
+    color:white;
+    width: 120px;
+    height: 40px;
+    margin: 20px;
+    transition: all .5s;
+}
+.btnBuy:hover{
+ background-color: #D7D2F5;
+ color: black;
+border: 1px solid black;
+}
+.carousel-control-prev{
+position: absolute;
+top: 50%;
+left: 0%;
+padding: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: black ;
+background-color: white;
+width: fit-content;
+height: fit-content;
+transition: .1s;
+
+}
+.carousel-control-prev:hover{
+    background-color: #EB19B7;
+    color: white;
+}
+    
+.carousel-control-next{
+position: absolute;
+top: 62%;
+left: 0%;
+padding: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: black ;
+background-color: white;
+width: fit-content;
+height: fit-content;
+transition: .1s;
+}
+.carousel-control-next:hover{
+    background-color: #EB19B7;
+    color: white;
+}
+ @media screen and (max-width:1000px){
+    .home{
+        background-image: url("");
+        background-size: cover;
+        background-position: center center;
+        inset: 0;
+
+       
+        background-color: #D7D2F5;
+    }
+    .page{
+        text-align: center;
+    }
+    .page h1{
+        font-size: 3rem;
+    }
+    .page h2{
+        font-size:2rem ;
+    }
+
+    .carousel-control-prev{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black ;
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    transition: .1s;
+    
+    }
+    .carousel-control-next{
+        position: absolute;
+        top: 60%;
+        left: 0%;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black ;
+        background-color: white;
+        width: fit-content;
+        height: fit-content;
+        transition: .1s;
+    }
+ }   
